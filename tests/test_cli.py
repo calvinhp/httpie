@@ -22,7 +22,7 @@ class TestItemParsing:
     key_value = KeyValueArgType(*input.SEP_GROUP_ALL_ITEMS)
 
     def test_demo(self):
-        self.assertTrue()
+        assert True
 
     def test_invalid_items(self):
         items = ['no-separator']
